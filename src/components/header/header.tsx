@@ -11,7 +11,7 @@ const poppins = Poppins({
 });
 export const Header = () => {
     return (
-        <header className="flex h-[92px] items-center bg-amber-100 px-[50px] gap-[50px]">
+        <header className="flex h-[92px] items-center px-[50px] gap-[50px]">
             <Link href='/'><Logo /></Link>
             <form className="flex-1 h-[49px] border border-solid border-[var(--primary-variant)] rounded-[6px] bg-[var(--bg)] flex items-center pl-[9px]">
                 <button className="mx-2 my-3"><SearchIcon /></button>

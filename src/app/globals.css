@@ -16,7 +16,7 @@
 	--hr-l: #dbdbdb;
 	--orange: #f3a736;
 	--alert-info: #0c5460;
-  --font-sans: var(--font-geist-sans);
+  /* --font-sans: var(--font-geist-sans); */
   --font-roboto: var(--font-geist-roboto);
   --font-poppins: var(--font-geist-poppins);
   --font-lato: var(--font-geist-lato);

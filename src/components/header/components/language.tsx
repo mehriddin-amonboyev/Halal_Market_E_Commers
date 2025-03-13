@@ -9,9 +9,9 @@ interface Language {
 }
 
 const languages: Language[] = [
-    { code: "uz", label: "O'zbekcha 🇺🇿" },
-    { code: "en", label: "English 🇬🇧" },
-    { code: "ru", label: "Русский 🇷🇺" }
+    { code: "uz", label: "O'zbekcha" },
+    { code: "en", label: "English" },
+    { code: "ru", label: "Русский" }
 ];
 
 export const LanguageSwitcher = () => {
