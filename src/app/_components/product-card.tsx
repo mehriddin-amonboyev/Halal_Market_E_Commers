@@ -1,5 +1,5 @@
 import { Poppins } from 'next/font/google';
-import prduct from '../../../public/image/image.png'
+import product from '../../../public/image/image.png'
 import { SavatIcon } from '../../../public/svg';
 
 const poppins = Poppins({
@@ -12,7 +12,7 @@ export const ProductCard = () => {
     return (
         <div className="w-66 flex flex-col justify-center items-center">
             <div className='w-[262px] rounded-[6px]-[0px]'>
-                <img src={prduct.src} alt="img" />
+                <img src={product.src} alt="img" />
             </div>
             <h4 className={`${poppins.variable} text-normal text-[14px] leading-[150%] text-[#999]`}>Qo'y bo'yin (muzlatilgan)</h4>
             <div className='flex gap-2'>
